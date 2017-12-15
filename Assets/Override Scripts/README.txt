@@ -1,0 +1,1 @@
+override scripts, a coding pattern to allow overriding an implementation external from a partial class
