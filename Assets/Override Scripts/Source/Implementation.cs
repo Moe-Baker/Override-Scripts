@@ -18,7 +18,7 @@ using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
 //abstract class the acts as the functionality implementation
-public abstract class BaseImplementation : TypesData.ImplementationBase
+public abstract class BaseImplementation : DataTypes.ImplementationBase
 {
     void Start()
     {

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using UnityEngine.AI;
 
@@ -17,16 +18,11 @@ using UnityEditorInternal;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-public class BaseTypesData
+//override the implementation's base type
+public partial class DataTypes
 {
-    //declare an empty class that derived from the class we want to derive the implementation from
-    public class ImplementationBase : MonoBehaviour
+    new public class ImplementationBase : NetworkBehaviour
     {
 
     }
-}
-
-public partial class TypesData : BaseTypesData
-{
-
 }
